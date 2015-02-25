@@ -42,6 +42,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     //Jonathan's nose is bigger than Mt. Everest
+    
+    // Logan's the slowest thing i have ever seen
 
 }
 
