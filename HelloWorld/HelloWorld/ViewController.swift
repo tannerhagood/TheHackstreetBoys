@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet var tableView: UITableView!
-    var items: [String] = ["Item 1", "Item 2", "Trying to insert teams here..."]
+    var items: [String] = ["Trying to insert teams here..."]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,8 +30,5 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         return cell
     }
-    
-    func tableView(tableView: UITableView!, didSelectRowAtIndexPath indexPath: NSIndexPath!) {
-        println("You selected cell #\(indexPath.row)!")
-    }
+
 }
