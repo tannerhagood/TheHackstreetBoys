@@ -9,7 +9,7 @@
 import UIKit
 import XCTest
 
-class HelloWorldTests: XCTestCase {
+class HellWorldTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
