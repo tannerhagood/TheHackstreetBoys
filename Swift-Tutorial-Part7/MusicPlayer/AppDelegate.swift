@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  HackstreetProject
+//  MusicPlayer
 //
-//  Created by Timothy T Hagood on 2/24/15.
+//  Created by Timothy T Hagood on 3/23/15.
 //  Copyright (c) 2015 Timothy T Hagood. All rights reserved.
 //
 
@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        println("Hello World!")
         return true
     }
 
@@ -41,10 +41,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-    //Jonathan's nose is bigger than Mt. Everest
-    //lkfsjdafjals
-    
-    // Logan's the slowest thing i have ever seen
 
 }
 
