@@ -20,7 +20,7 @@ class SearchResultsViewController: UIViewController, UITableViewDataSource, UITa
         super.viewDidLoad()
         api = APIController(delegate: self)
         UIApplication.sharedApplication().networkActivityIndicatorVisible = true
-        api!.searchItunesFor("Beyonce")
+        api!.searchItunesFor("Beetles")
     }
 
     override func didReceiveMemoryWarning() {
