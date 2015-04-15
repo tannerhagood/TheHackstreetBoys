@@ -13,10 +13,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     
-    //This is a comment line hgfhgfhfgdcss
+    //This is a comment line
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.jhjhj
+        // Override point for customization after application launch.l
         return true
     }
 
