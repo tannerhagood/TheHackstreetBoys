@@ -13,10 +13,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     
+    //This is a comment line
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        
-        println("Jonathan has a big nose and that nose isnt bad but it is God's very own creation that He is proud of.")
-
         // Override point for customization after application launch.
         return true
     }
