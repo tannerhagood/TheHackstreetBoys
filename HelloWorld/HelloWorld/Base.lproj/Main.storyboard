@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -20,16 +20,16 @@
                                 <rect key="frame" x="0.0" y="20" width="600" height="580"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
-                                    <outlet property="dataSource" destination="vXZ-lx-hvc" id="u1P-Dd-GS4"/>
-                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="Zbc-0c-RvD"/>
+                                    <outlet property="dataSource" destination="vXZ-lx-hvc" id="rJW-4g-xQS"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="FAY-vn-VlZ"/>
                                 </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="tableView" destination="wb3-82-8j5" id="LFb-P8-bRI"/>
-                        <outlet property="view" destination="wb3-82-8j5" id="CCB-j4-SSn"/>
+                        <outlet property="tableView" destination="wb3-82-8j5" id="Dx5-Cl-H2G"/>
+                        <outlet property="view" destination="wb3-82-8j5" id="fhA-2S-Kov"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
